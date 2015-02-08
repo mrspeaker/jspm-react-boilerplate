@@ -1,0 +1,7 @@
+{
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^0.12.2"
+    }
+  }
+}
