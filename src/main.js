@@ -5,3 +5,6 @@ export default React.render(
   <Hello name="World" />,
   document.querySelector("#app")
 );
+
+
+export default {}
