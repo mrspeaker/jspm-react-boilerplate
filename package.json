@@ -1,7 +1,12 @@
 {
   "jspm": {
+    "directories": {},
     "dependencies": {
       "react": "npm:react@^0.13.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel@^4.7.16",
+      "babel-runtime": "npm:babel-runtime@^4.7.16"
     }
   }
 }

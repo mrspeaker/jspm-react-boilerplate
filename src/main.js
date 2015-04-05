@@ -1,10 +1,6 @@
 import React from "react";
-import Hello from "./components/Hello";
 
 export default React.render(
-  <Hello name="World" />,
+  <div>Hello World </div>,
   document.querySelector("#app")
 );
-
-
-export default {}

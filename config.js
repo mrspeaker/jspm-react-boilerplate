@@ -1,6 +1,12 @@
 System.config({
   "baseURL": "/",
   "transpiler": "babel",
+  "babelOptions": {
+    "optional": [
+      "runtime"
+    ],
+    "blacklist": []
+  },
   "paths": {
     "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
@@ -10,6 +16,8 @@ System.config({
 
 System.config({
   "map": {
+    "babel": "npm:babel@4.7.16",
+    "babel-runtime": "npm:babel-runtime@4.7.16",
     "react": "npm:react@0.13.1",
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.1.2"
@@ -33,6 +41,9 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "module": "github:jspm/nodelibs-module@0.1.0",
       "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:babel-runtime@4.7.16": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:buffer@3.1.2": {
