@@ -3,7 +3,6 @@ System.config({
   "transpiler": "babel",
   "paths": {
     "*": "*.js",
-    "app/*": "src/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }
@@ -13,7 +12,7 @@ System.config({
   "map": {
     "react": "npm:react@0.13.1",
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.1.1"
+      "buffer": "npm:buffer@3.1.2"
     },
     "github:jspm/nodelibs-events@0.1.0": {
       "events-browserify": "npm:events-browserify@0.0.1"
@@ -36,7 +35,7 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:buffer@3.1.1": {
+    "npm:buffer@3.1.2": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.4",
       "is-array": "npm:is-array@1.0.1"
